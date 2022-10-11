@@ -4,7 +4,7 @@
 header{
     display: flex;
     justify-content: center;
-    height: 10vh;
+    height: fit-content;
     flex-direction: column;
     
 }
@@ -52,10 +52,10 @@ main div{
     margin: 10px;
     padding: 10px;
 }
-.img div{
-    height: 8vh;
-    width: 4vw;
-    margin: 10px;
+.img_width_heigth{
+    height: 4rem;
+width: 4rem;
+margin: 9px;
 }
 #icon1{
     background-image: url("https://images.unsplash.com/photo-1611944212129-29977ae1398c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGljb24lMjBkZXNpZ258ZW58MHx8MHx8&w=1000&q=80");
@@ -118,6 +118,9 @@ footer{
 #i1{
     background-image:url("img2.png") ;
     background-size: cover;
+    height: 2rem;
+    width: 1.5rem;
+    
 }
 #i1:hover{
     cursor: not-allowed;
@@ -125,6 +128,8 @@ footer{
 #i2{
     background-image:url("img3.png") ;
     background-size: cover;
+    height: 2rem;
+    width: 1.5rem;
 }
 #i2:hover{
     cursor: not-allowed;
@@ -132,19 +137,11 @@ footer{
 #i3{
     background-image:url("img4.png");
     background-size: cover;
+    height: 2rem;
+    width: 1.5rem;
 }
 #i3:hover{
     cursor: not-allowed;
-}
-@media screen and (max-width: 50px) {
-    header div{
-        scale: 70%;
-    }
-    main div{
-        scale: 70%;
-    }
-    footer div{
-        scale: 70%;
-    }
-  }
-  
+}  
+
+
